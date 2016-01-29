@@ -3,4 +3,4 @@
 <iframe width="640" height="480" src="//www.youtube.com/embed/I3SB9RNg74w?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe><p><a href="https://www.youtube.com/watch?v=I3SB9RNg74w">Responsive Type</a></p>
 
 
-<a href='https://learn.co/lessons/responsive-type' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-type' title='Responsive Type'>Responsive Type</a> on Learn.co and start learning to code for free.</p>
