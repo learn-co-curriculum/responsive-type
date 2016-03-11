@@ -10,7 +10,7 @@ In this lesson we will look at strategies for making adjustments to type in reps
 
 ## Creating Responsive Type That's Easy To Maintain
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/I3SB9RNg74w?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="480" src="//www.youtube.com/embed/I3SB9RNg74w?rel=0" frameborder="0" allowfullscreen></iframe>
 
 *Note: Slides for this lecture video are provided in the resources at the bottom of this lesson.*
 
