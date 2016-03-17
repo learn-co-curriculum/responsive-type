@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this lesson we will look at strategies for making adjustments to type in repsonsive layouts.
+In this lesson we will look at strategies for making adjustments to type in responsive layouts.
 
 ## Objectives
 
@@ -69,3 +69,4 @@ As we mentioned paragraphs by defualt normally only occupy one column. We can cr
 - [Responsive Type Column Count - Code Example](http://jsfiddle.net/flatiron_school/vy43K/2/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-type' title='Responsive Type'>Responsive Type</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-type'>Responsive Type</a> on Learn.co and start learning to code for free.</p>
