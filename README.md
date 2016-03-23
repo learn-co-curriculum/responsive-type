@@ -55,7 +55,7 @@ article p {
 }
 ```
 
-As we mentioned paragraphs by defualt normally only occupy one column. We can create however the visual effect of this single paragraph element splitting into multiple columns by setting our media query on line 5 to trigger on screens greater than 480px, then on line 7 we set our paragraph to adjust its column count to 2 columns instead. have a look at this in the code example in the resource section below at the bottom of this lesson.
+As we mentioned, paragraphs by default normally only occupy one column. However, we can create the visual effect of this single paragraph element splitting into multiple columns by setting our media query on line 5 to trigger on screens greater than 480px, then on line 7 we set our paragraph to adjust its column count to 2 columns instead. Have a look at this in the code example in the resource section below at the bottom of this lesson.
 
 ## Summary
 
@@ -69,3 +69,4 @@ As we mentioned paragraphs by defualt normally only occupy one column. We can cr
 - [Responsive Type Column Count - Code Example](http://jsfiddle.net/flatiron_school/vy43K/2/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-type' title='Responsive Type'>Responsive Type</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-type'>Responsive Type</a> on Learn.co and start learning to code for free.</p>
