@@ -29,7 +29,7 @@ p { font-size: 1em; }
 } 
 ``` 
 
-In the code above, on line 1, 2, and 3 we are setting default styles. THe body elements default text size is already 100%, but we have included here to clarify the change that's made in the media query. On line 2 we set all `h1` elements to be 2.5em, and on line 3 we set the `p` element to 1em. So, the h1 is two and a half times larger then our paragraphs. In our media query on line 5 we set the query to trigger for device screens less than 400 pixels. When this occurs on line 6 we adjust the body font-size to 130%. This causes all elements within in the body (h1, p) to inherit this change and grow 30% larger. Since we sized using em, you'll ntice that the h1 and p adjust in propertion to each other even as they grow or shrink in size. This makes it very convenient to make size adjustments to one element, the body and thus effect all other type in our layout uniformly.
+In the code above, on line 1, 2, and 3 we are setting default styles. The body elements default text size is already 100%, but we have included here to clarify the change that's made in the media query. On line 2 we set all `h1` elements to be 2.5em, and on line 3 we set the `p` element to 1em. So, the h1 is two and a half times larger then our paragraphs. In our media query on line 5 we set the query to trigger for device screens less than 400 pixels. When this occurs on line 6 we adjust the body font-size to 130%. This causes all elements within in the body (h1, p) to inherit this change and grow 30% larger. Since we sized using em, you'll ntice that the h1 and p adjust in propertion to each other even as they grow or shrink in size. This makes it very convenient to make size adjustments to one element, the body and thus effect all other type in our layout uniformly.
 
 ### Column Count
 
@@ -69,3 +69,4 @@ As we mentioned paragraphs by defualt normally only occupy one column. We can cr
 - [Responsive Type Column Count - Code Example](http://jsfiddle.net/flatiron_school/vy43K/2/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-type' title='Responsive Type'>Responsive Type</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-type'>Responsive Type</a> on Learn.co and start learning to code for free.</p>
