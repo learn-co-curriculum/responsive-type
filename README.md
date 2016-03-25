@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this lesson we will look at strategies for making adjustments to type in repsonsive layouts.
+In this lesson we will look at strategies for making adjustments to type in responsive layouts.
 
 ## Objectives
 
