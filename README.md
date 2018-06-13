@@ -1,38 +1,34 @@
-# Responsive Type
+# Working with Responsive Type
 
 ## Overview
 
-In this lesson we will look at strategies for making adjustments to type in
-responsive layouts.
-
-## Objectives
-
-1. Adjust text sizing to be responsive while maintaining its size relationship
-to other bodies of text.
-2. Using column count to break text into columns across different screen sizes.
-
-## Creating Responsive Type That's Easy To Maintain
-
-CSS media queries are great for reshaping websites for any device, making them
-very responsive. There is still some work to do though, particularly in regard
-to content. Depending on the screen size of a user's device, text can take up
+CSS media queries are great for reshaping websites for any device, making
+them very responsive. There is still some work to do though, particularly
+in regard to content. In addition to media such as images, the text content also
+becomes a concern for readability. Depending on the screen size of a user's device, text can take up
 different amounts of space. On a site with static sized text, a user with a huge
 desktop monitor may see a website with large blank spaces and text sprawling in
 long lines across the screen, while a mobile user might be scrolling down
-through seemingly endless text.
+through seemingly endless text.On a small screen, text can appear large,
+however, on screens with higher resolution, text with fixed size could become
+too difficult to read, and take up way too much real estate on a smaller device. 
+What are some workarounds for these styling challenges?
 
-We want to provide a consistent experience to as many users as possible in an
-easy to maintain way.  One of the best ways to do this is through relative
-measurements such as _em_.
+## Objectives
 
-### Em, What Else Would I Use?
+1. Create maintainable responsive type with em
+2. Create maintainable responsive type with column count
 
-Em values are relative to the current font-size. Because it is a relative
-measurement, it is very useful for keeping type proportional. Let's take a look
-at an example where we want our header text to always be two and a half times
-larger than our paragraph text. On certain devices when the screen gets below
-400px we want all of our text to become 30% larger whilst still maintaining the
-relationship of the heading being 2.5 times larger than our paragraph.
+## Create Maintainable Responsive Type with Em
+
+One of the best ways to create maintainable type this is through relative
+measurements such as _em_. Em values are relative to the current font-size.
+Because it is a relative measurement, it is very useful for keeping type
+proportional. Let's take a look at an example where we want our header text
+to always be two and a half times larger than our paragraph text. On certain
+devices when the screen gets below 400px we want all of our text to become
+30% larger whilst still maintaining the relationship of the heading being
+2.5 times larger than our paragraph.
 
 ```css
 body { font-size: 100%; }
@@ -62,19 +58,20 @@ Em values can be used in width and height properties, so this measurement can be
 used for the divs and elements making up your webpage structure.. and would also
 adjust in proportion based on font-size, like in the example above.
 
-### Column Count
+## Create Maintainable Responsive Type with  Column Count
 
-Another simple tip for easily adjusting type is when you might want to wrap text
-into separate columns. This is especially true on larger screen sizes where you
-have big bodies of text content. You can imagine that as a paragraph stretches
-across bigger screens, the lines of text get really long, and become awkward for
-the reader to find the next line. Designers suggest that for optimum readability
-you want the measure of your text lines to be between 40 to 80 characters.
-Anything smaller or larger becomes a bit awkward to read. To tackle this we can
-make use of a lesser known, yet fairly well supported CSS `column-count`
-property.
+Another tip for adjusting type is when you might want to wrap text into separate
+columns. This is especially true on larger screen sizes where you have big bodies
+of text content. You can imagine that as a paragraph stretches across bigger screens,
+the lines of text get really long, and become awkward for the reader to find the next
+line. Designers suggest that for optimum readability you want the measure of your
+text lines to be between 40 to 80 characters. Anything smaller or larger becomes a
+bit awkward to read. To tackle this we can make use of a lesser known, yet fairly
+well supported CSS `column-count` property.
 
-The default column-count is one, meaning text is contained within one column. When our screen gets bigger, it might be good to adjust the text into multiple columns; let's see an example:
+The default column-count is one, meaning text is contained within one column. When
+our screen gets bigger, it might be good to adjust the text into multiple columns;
+let's see an example:
 
 ```html
 <article>
@@ -101,14 +98,14 @@ greater than 480px; then on line 7 we set our paragraph to adjust its column
 count to 2 columns instead. Have a look at this in the code example in the
 resource section below at the bottom of this lesson.
 
-## Summary
+## Conclusion
 
-- It is to our advantage to set all typography within our site to ems and then in
-media queries adjust the body font-size as a percent to adjust all type in
-proportion to each other. This greatly simplifies our media queries on
-typography.
-- We can adjust the `column-count` property to split our text into virtual
-columns.
+Creating responsive layouts can be tricky, but with a number of techniques in mind,
+this process becomes more manageable. It is to our advantage to set all typography
+within our site to ems and then in media queries adjust the body font-size as a
+percent to adjust all type in proportion to each other. This simplifies our media
+queries on typography. In addition to em, with the `column-count` property, you
+can adjust it to split text into virtual columns.
 
 ## Resources
 
