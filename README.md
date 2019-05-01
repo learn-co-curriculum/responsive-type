@@ -23,7 +23,7 @@ screen real estate. What are some workarounds for these styling challenges?
 
 ## Create Maintainable Responsive Type with `em`
 
-One of the best ways to create maintainable type this is through relative
+One of the best ways to create maintainable type is with relative
 measurements such as _em_. Em values are relative to the current font-size.
 Because it is a relative measurement, it is very useful for keeping type
 proportional. Let's take a look at an example where we want our header text
