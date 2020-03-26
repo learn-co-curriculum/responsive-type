@@ -111,7 +111,6 @@ can adjust it to split text into virtual columns.
 
 ## Resources
 
-- [Presentation Slides](https://docs.google.com/presentation/d/1j_i5pGPB5lHbgr4fpdUDheRBv2kAeOk_yhfd1Uc2f3s/edit?usp=sharing)
 - [Responsive Type Column Count - Code Example](http://jsfiddle.net/flatiron_school/vy43K/2/)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/responsive-type'>Responsive Type</a> on Learn.co and start learning to code for free.</p>
